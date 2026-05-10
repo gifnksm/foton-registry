@@ -1,7 +1,41 @@
 [package]
 name = "udev-gothic"
+display-name = "UDEV Gothic"
 version = "2.2.0"
 description = "Japanese programming font combining BIZ UD Gothic and JetBrains Mono"
+aliases = [
+  "UDEV Gothic JPDOC",
+  "UDEV Gothic LG",
+  "UDEV Gothis 35",
+  "UDEV Gothis 35JPDOC",
+  "UDEV Gothis 35LG",
+]
+faces = [
+  "UDEV Gothic Regular",
+  "UDEV Gothic Bold",
+  "UDEV Gothic Italic",
+  "UDEV Gothic BoldItalic",
+  "UDEV Gothic JPDOC Regular",
+  "UDEV Gothic JPDOC Bold",
+  "UDEV Gothic JPDOC Italic",
+  "UDEV Gothic JPDOC BoldItalic",
+  "UDEV Gothic LG Regular",
+  "UDEV Gothic LG Bold",
+  "UDEV Gothic LG Italic",
+  "UDEV Gothic LG BoldItalic",
+  "UDEV Gothis 35 Regular",
+  "UDEV Gothis 35 Bold",
+  "UDEV Gothis 35 Italic",
+  "UDEV Gothis 35 BoldItalic",
+  "UDEV Gothis 35JPDOC Regular",
+  "UDEV Gothis 35JPDOC Bold",
+  "UDEV Gothis 35JPDOC Italic",
+  "UDEV Gothis 35JPDOC BoldItalic",
+  "UDEV Gothis 35LG Regular",
+  "UDEV Gothis 35LG Bold",
+  "UDEV Gothis 35LG Italic",
+  "UDEV Gothis 35LG BoldItalic",
+]
 homepage = "https://github.com/yuru7/udev-gothic"
 repository = "https://github.com/yuru7/udev-gothic"
 license = "OFL-1.1"
