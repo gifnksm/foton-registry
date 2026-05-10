@@ -1,5 +1,5 @@
 [package]
-name = "yuru7/hackgen-nf"
+name = "hackgen-nf"
 version = "2.10.0"
 description = "Japanese programming font combining Hack and GenJyuu Gothic with Nerd Fonts"
 homepage = "https://github.com/yuru7/HackGen"

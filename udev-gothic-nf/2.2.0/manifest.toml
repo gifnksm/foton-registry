@@ -1,5 +1,5 @@
 [package]
-name = "yuru7/udev-gothic-nf"
+name = "udev-gothic-nf"
 version = "2.2.0"
 description = "Japanese programming font combining BIZ UD Gothic and JetBrains Mono with Nerd Fonts"
 homepage = "https://github.com/yuru7/udev-gothic"
