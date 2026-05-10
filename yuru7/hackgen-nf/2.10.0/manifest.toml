@@ -1,7 +1,7 @@
 [package]
 name = "yuru7/hackgen-nf"
 version = "2.10.0"
-description = "Hack と源柔ゴシックを合成したプログラミングフォント 白源 (はくげん／HackGen)"
+description = "Japanese programming font combining Hack and GenJyuu Gothic with Nerd Fonts"
 homepage = "https://github.com/yuru7/HackGen"
 repository = "https://github.com/yuru7/HackGen"
 license = "OFL-1.1"

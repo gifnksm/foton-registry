@@ -1,7 +1,7 @@
 [package]
 name = "yuru7/udev-gothic-hs"
 version = "2.2.0"
-description = "UDEV Gothic は、ユニバーサルデザインフォントのBIZ UDゴシックと、 開発者向けフォントの JetBrains Mono を合成した、プログラミング向けフォントです。"
+description = "Japanese programming font combining BIZ UD Gothic and JetBrains Mono with hidden full-width spaces"
 homepage = "https://github.com/yuru7/udev-gothic"
 repository = "https://github.com/yuru7/udev-gothic"
 license = "OFL-1.1"
