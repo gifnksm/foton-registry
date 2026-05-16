@@ -1,4 +1,3 @@
-[package]
 name = "udev-gothic-hs"
 display-name = "UDEV Gothic HS"
 version = "2.2.0"
