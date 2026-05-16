@@ -17,14 +17,14 @@ faces = [
   "UDEV Gothic NFLG Bold",
   "UDEV Gothic NFLG Italic",
   "UDEV Gothic NFLG BoldItalic",
-  "UDEV Gothis 35NF Regular",
-  "UDEV Gothis 35NF Bold",
-  "UDEV Gothis 35NF Italic",
-  "UDEV Gothis 35NF BoldItalic",
-  "UDEV Gothis 35NFLG Regular",
-  "UDEV Gothis 35NFLG Bold",
-  "UDEV Gothis 35NFLG Italic",
-  "UDEV Gothis 35NFLG BoldItalic",
+  "UDEV Gothic 35NF Regular",
+  "UDEV Gothic 35NF Bold",
+  "UDEV Gothic 35NF Italic",
+  "UDEV Gothic 35NF BoldItalic",
+  "UDEV Gothic 35NFLG Regular",
+  "UDEV Gothic 35NFLG Bold",
+  "UDEV Gothic 35NFLG Italic",
+  "UDEV Gothic 35NFLG BoldItalic",
 ]
 homepage = "https://github.com/yuru7/udev-gothic"
 repository = "https://github.com/yuru7/udev-gothic"
@@ -33,4 +33,21 @@ license = "OFL-1.1"
 [[sources]]
 url = "https://github.com/yuru7/udev-gothic/releases/download/v2.2.0/UDEVGothic_NF_v2.2.0.zip"
 hash = "sha256:45faeef7b5d8bc591bcc5887a2ca0c5fb9028066f18a5a52cd6f10b7d655ba37"
-include = ["*/*.ttf"]
+include = [
+  "UDEVGothic_NF_v2.2.0/UDEVGothicNF-Regular.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothicNF-Bold.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothicNF-Italic.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothicNF-BoldItalic.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothicNFLG-Regular.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothicNFLG-Bold.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothicNFLG-Italic.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothicNFLG-BoldItalic.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothic35NF-Regular.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothic35NF-Bold.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothic35NF-Italic.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothic35NF-BoldItalic.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothic35NFLG-Regular.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothic35NFLG-Bold.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothic35NFLG-Italic.ttf",
+  "UDEVGothic_NF_v2.2.0/UDEVGothic35NFLG-BoldItalic.ttf",
+]
