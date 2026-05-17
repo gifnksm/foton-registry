@@ -1,0 +1,52 @@
+name = "udev-gothic-nf"
+display-name = "UDEV Gothic NF"
+version = "2.1.0"
+description = "Japanese programming font combining BIZ UD Gothic and JetBrains Mono with Nerd Fonts"
+aliases = [
+  "UDEV Gothic NFLG",
+  "UDEV Gothis 35NF",
+  "UDEV Gothis 35NFLG",
+]
+faces = [
+  "UDEV Gothic NF Regular",
+  "UDEV Gothic NF Bold",
+  "UDEV Gothic NF Italic",
+  "UDEV Gothic NF BoldItalic",
+  "UDEV Gothic NFLG Regular",
+  "UDEV Gothic NFLG Bold",
+  "UDEV Gothic NFLG Italic",
+  "UDEV Gothic NFLG BoldItalic",
+  "UDEV Gothic 35NF Regular",
+  "UDEV Gothic 35NF Bold",
+  "UDEV Gothic 35NF Italic",
+  "UDEV Gothic 35NF BoldItalic",
+  "UDEV Gothic 35NFLG Regular",
+  "UDEV Gothic 35NFLG Bold",
+  "UDEV Gothic 35NFLG Italic",
+  "UDEV Gothic 35NFLG BoldItalic",
+]
+homepage = "https://github.com/yuru7/udev-gothic"
+repository = "https://github.com/yuru7/udev-gothic"
+license = "OFL-1.1"
+
+[[sources]]
+url = "https://github.com/yuru7/udev-gothic/releases/download/v2.1.0/UDEVGothic_NF_v2.1.0.zip"
+hash = "sha256:2d3ea89a7dfbf5ad07893fa1a39894f5860a146fd2633311176c61dcca6120e7"
+include = [
+  "UDEVGothic_NF_v2.1.0/UDEVGothicNF-Regular.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothicNF-Bold.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothicNF-Italic.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothicNF-BoldItalic.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-Regular.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-Bold.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-Italic.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-BoldItalic.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-Regular.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-Bold.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-Italic.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-BoldItalic.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-Regular.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-Bold.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-Italic.ttf",
+  "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-BoldItalic.ttf",
+]
