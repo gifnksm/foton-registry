@@ -1,0 +1,27 @@
+name = "hackgen-nf"
+display-name = "HackGen NF"
+version = "2.9.1"
+description = "Japanese programming font combining Hack and GenJyuu Gothic with Nerd Fonts"
+aliases = [
+  "HackGen Console NF",
+  "HackGen35 Console NF",
+]
+faces = [
+  "HackGen Console NF Regular",
+  "HackGen Console NF Bold",
+  "HackGen35 Console NF Regular",
+  "HackGen35 Console NF Bold",
+]
+homepage = "https://github.com/yuru7/HackGen"
+repository = "https://github.com/yuru7/HackGen"
+license = "OFL-1.1"
+
+[[sources]]
+url = "https://github.com/yuru7/HackGen/releases/download/v2.9.1/HackGen_NF_v2.9.1.zip"
+hash = "sha256:1fd174866c7bcbe1cc09ebef74f9246a21664fedbb9c9ced349a328ab6357f0d"
+include = [
+  "HackGen_NF_v2.9.1/HackGenConsoleNF-Regular.ttf",
+  "HackGen_NF_v2.9.1/HackGenConsoleNF-Bold.ttf",
+  "HackGen_NF_v2.9.1/HackGen35ConsoleNF-Regular.ttf",
+  "HackGen_NF_v2.9.1/HackGen35ConsoleNF-Bold.ttf",
+]
