@@ -35,7 +35,6 @@ faces = [
   "UDEV Gothic 35HSLG Italic",
   "UDEV Gothic 35HSLG BoldItalic",
 ]
-homepage = "https://github.com/yuru7/udev-gothic"
 repository = "https://github.com/yuru7/udev-gothic"
 license = "OFL-1.1"
 

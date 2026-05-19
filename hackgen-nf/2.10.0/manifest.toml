@@ -12,7 +12,6 @@ faces = [
   "HackGen35 Console NF Regular",
   "HackGen35 Console NF Bold",
 ]
-homepage = "https://github.com/yuru7/HackGen"
 repository = "https://github.com/yuru7/HackGen"
 license = "OFL-1.1"
 
