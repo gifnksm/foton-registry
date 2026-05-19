@@ -1,0 +1,92 @@
+name = "jetbrains-mono"
+display-name = "JetBrains Mono"
+version = "2.304"
+description = "The free and open-source typeface for developers, by JetBrains"
+aliases = [
+  "JetBrains Mono NL",
+]
+faces = [
+  "JetBrains Mono Thin",
+  "JetBrains Mono ExtraLight",
+  "JetBrains Mono Light",
+  "JetBrains Mono Regular",
+  "JetBrains Mono Medium",
+  "JetBrains Mono SemiBold",
+  "JetBrains Mono Bold",
+  "JetBrains Mono ExtraBold",
+
+  "JetBrains Mono Thin Italic",
+  "JetBrains Mono ExtraLight Italic",
+  "JetBrains Mono Light Italic",
+  "JetBrains Mono Italic",
+  "JetBrains Mono Medium Italic",
+  "JetBrains Mono SemiBold Italic",
+  "JetBrains Mono Bold Italic",
+  "JetBrains Mono ExtraBold Italic",
+
+  "JetBrains Mono NL Thin",
+  "JetBrains Mono NL ExtraLight",
+  "JetBrains Mono NL Light",
+  "JetBrains Mono NL Regular",
+  "JetBrains Mono NL Medium",
+  "JetBrains Mono NL SemiBold",
+  "JetBrains Mono NL Bold",
+  "JetBrains Mono NL ExtraBold",
+
+  "JetBrains Mono NL Thin Italic",
+  "JetBrains Mono NL ExtraLight Italic",
+  "JetBrains Mono NL Light Italic",
+  "JetBrains Mono NL Italic",
+  "JetBrains Mono NL Medium Italic",
+  "JetBrains Mono NL SemiBold Italic",
+  "JetBrains Mono NL Bold Italic",
+  "JetBrains Mono NL ExtraBold Italic",
+]
+homepage = "https://jetbrains.com/mono"
+repository = "https://github.com/JetBrains/JetBrainsMono"
+license = "OFL-1.1"
+
+[[sources]]
+url = "https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip"
+hash = "sha256:6f6376c6ed2960ea8a963cd7387ec9d76e3f629125bc33d1fdcd7eb7012f7bbf"
+include = [
+  "fonts/ttf/JetBrainsMono-Thin.ttf",
+  "fonts/ttf/JetBrainsMono-ExtraLight.ttf",
+  "fonts/ttf/JetBrainsMono-Light.ttf",
+  "fonts/ttf/JetBrainsMono-Regular.ttf",
+  "fonts/ttf/JetBrainsMono-Medium.ttf",
+  "fonts/ttf/JetBrainsMono-SemiBold.ttf",
+  "fonts/ttf/JetBrainsMono-Bold.ttf",
+  "fonts/ttf/JetBrainsMono-ExtraBold.ttf",
+
+  "fonts/ttf/JetBrainsMono-ThinItalic.ttf",
+  "fonts/ttf/JetBrainsMono-ExtraLightItalic.ttf",
+  "fonts/ttf/JetBrainsMono-LightItalic.ttf",
+  "fonts/ttf/JetBrainsMono-Italic.ttf",
+  "fonts/ttf/JetBrainsMono-MediumItalic.ttf",
+  "fonts/ttf/JetBrainsMono-SemiBoldItalic.ttf",
+  "fonts/ttf/JetBrainsMono-BoldItalic.ttf",
+  "fonts/ttf/JetBrainsMono-ExtraBoldItalic.ttf",
+
+  "fonts/ttf/JetBrainsMonoNL-Thin.ttf",
+  "fonts/ttf/JetBrainsMonoNL-ExtraLight.ttf",
+  "fonts/ttf/JetBrainsMonoNL-Light.ttf",
+  "fonts/ttf/JetBrainsMonoNL-Regular.ttf",
+  "fonts/ttf/JetBrainsMonoNL-Medium.ttf",
+  "fonts/ttf/JetBrainsMonoNL-SemiBold.ttf",
+  "fonts/ttf/JetBrainsMonoNL-Bold.ttf",
+  "fonts/ttf/JetBrainsMonoNL-ExtraBold.ttf",
+
+  "fonts/ttf/JetBrainsMonoNL-ThinItalic.ttf",
+  "fonts/ttf/JetBrainsMonoNL-ExtraLightItalic.ttf",
+  "fonts/ttf/JetBrainsMonoNL-LightItalic.ttf",
+  "fonts/ttf/JetBrainsMonoNL-Italic.ttf",
+  "fonts/ttf/JetBrainsMonoNL-MediumItalic.ttf",
+  "fonts/ttf/JetBrainsMonoNL-SemiBoldItalic.ttf",
+  "fonts/ttf/JetBrainsMonoNL-BoldItalic.ttf",
+  "fonts/ttf/JetBrainsMonoNL-ExtraBoldItalic.ttf",
+]
+exclude = [
+  "fonts/variable/JetBrainsMono[[]wght[]].ttf",
+  "fonts/variable/JetBrainsMono-Italic[[]wght[]].ttf",
+]

@@ -1,0 +1,51 @@
+name = "cascadia-code"
+display-name = "Cascadia Code"
+version = "2407.24"
+description = "A monospaced font by Microsoft that includes programming ligatures"
+aliases = [
+  "Cascadia Code NF",
+  "Cascadia Code PL",
+  "Cascadia Mono",
+  "Cascadia Mono NF",
+  "Cascadia Mono PL",
+]
+faces = [
+  "Cascadia Code Regular",
+  "Cascadia Code Italic",
+  "Cascadia Code NF Regular",
+  "Cascadia Code NF Italic",
+  "Cascadia Code PL Regular",
+  "Cascadia Code PL Italic",
+
+  "Cascadia Mono Regular",
+  "Cascadia Mono Italic",
+  "Cascadia Mono NF Regular",
+  "Cascadia Mono NF Italic",
+  "Cascadia Mono PL Regular",
+  "Cascadia Mono PL Italic",
+]
+repository = "https://github.com/microsoft/cascadia-code"
+license = "OFL-1.1"
+
+[[sources]]
+url = "https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip"
+hash = "sha256:e67a68ee3386db63f48b9054bd196ea752bc6a4ebb4df35adce6733da50c8474"
+include = [
+  "ttf/CascadiaCode.ttf",
+  "ttf/CascadiaCodeItalic.ttf",
+  "ttf/CascadiaCodeNF.ttf",
+  "ttf/CascadiaCodeNFItalic.ttf",
+  "ttf/CascadiaCodePL.ttf",
+  "ttf/CascadiaCodePLItalic.ttf",
+
+  "ttf/CascadiaMono.ttf",
+  "ttf/CascadiaMonoItalic.ttf",
+  "ttf/CascadiaMonoNF.ttf",
+  "ttf/CascadiaMonoNFItalic.ttf",
+  "ttf/CascadiaMonoPL.ttf",
+  "ttf/CascadiaMonoPLItalic.ttf",
+]
+exclude = [
+  "otf/static/*.otf",
+  "ttf/static/*.ttf",
+]

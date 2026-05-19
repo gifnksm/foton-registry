@@ -1,0 +1,35 @@
+name = "firge"
+display-name = "Firge"
+version = "0.3.0"
+description = "Japanese programming font combining Fira Mono and Genshin Gothic"
+aliases = [
+  "Firge Console",
+  "Firge35",
+  "Firge35 Console",
+]
+faces = [
+  "Firge Regular",
+  "Firge Bold",
+  "Firge Console Regular",
+  "Firge Console Bold",
+  "Firge35 Regular",
+  "Firge35 Bold",
+  "Firge35 Console Regular",
+  "Firge35 Console Bold",
+]
+repository = "https://github.com/yuru7/Firge"
+license = "OFL-1.1"
+
+[[sources]]
+url = "https://github.com/yuru7/Firge/releases/download/v0.3.0/Firge_v0.3.0.zip"
+hash = "sha256:c986f621000a6598064c7e2078322ed02040af4f7804d258033df949b35b0527"
+include = [
+  "Firge_v0.3.0/Firge-Regular.ttf",
+  "Firge_v0.3.0/Firge-Bold.ttf",
+  "Firge_v0.3.0/FirgeConsole-Regular.ttf",
+  "Firge_v0.3.0/FirgeConsole-Bold.ttf",
+  "Firge_v0.3.0/Firge35-Regular.ttf",
+  "Firge_v0.3.0/Firge35-Bold.ttf",
+  "Firge_v0.3.0/Firge35Console-Regular.ttf",
+  "Firge_v0.3.0/Firge35Console-Bold.ttf",
+]
