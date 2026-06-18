@@ -25,6 +25,4 @@ include = [
   "ttf/FiraCode-SemiBold.ttf",
   "ttf/FiraCode-Bold.ttf",
 ]
-exclude = [
-  "variable_ttf/FiraCode-VF.ttf"
-]
+exclude = ["variable_ttf/FiraCode-VF.ttf"]
