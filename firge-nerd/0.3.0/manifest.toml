@@ -17,7 +17,7 @@ license = "OFL-1.1"
 [[sources]]
 url = "https://github.com/yuru7/Firge/releases/download/v0.3.0/FirgeNerd_v0.3.0.zip"
 hash = "sha256:54cd76378fbc5025f42d441d95ca6ec1d3ecc4270e6107558840fed7c04cfe4f"
-include = [
+files = [
   "FirgeNerd_v0.3.0/FirgeNerdConsole-Regular.ttf",
   "FirgeNerd_v0.3.0/FirgeNerdConsole-Bold.ttf",
   "FirgeNerd_v0.3.0/Firge35NerdConsole-Regular.ttf",

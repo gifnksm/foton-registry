@@ -19,7 +19,7 @@ license = "OFL-1.1"
 [[sources]]
 url = "https://github.com/googlefonts/morisawa-biz-ud-gothic/releases/download/v1.051/BIZUDGothic.zip"
 hash = "sha256:30692df621b92df13b88f1360aed1ab6ae50de441bce751a396c6439045cd759"
-include = [
+files = [
   "BIZUDGothic-Bold.ttf",
   "BIZUDGothic-Regular.ttf",
   "BIZUDPGothic-Bold.ttf",

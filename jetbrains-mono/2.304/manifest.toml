@@ -49,7 +49,7 @@ license = "OFL-1.1"
 [[sources]]
 url = "https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip"
 hash = "sha256:6f6376c6ed2960ea8a963cd7387ec9d76e3f629125bc33d1fdcd7eb7012f7bbf"
-include = [
+files = [
   "fonts/ttf/JetBrainsMono-Thin.ttf",
   "fonts/ttf/JetBrainsMono-ExtraLight.ttf",
   "fonts/ttf/JetBrainsMono-Light.ttf",
@@ -86,7 +86,7 @@ include = [
   "fonts/ttf/JetBrainsMonoNL-BoldItalic.ttf",
   "fonts/ttf/JetBrainsMonoNL-ExtraBoldItalic.ttf",
 ]
-exclude = [
-  "fonts/variable/JetBrainsMono[[]wght[]].ttf",
-  "fonts/variable/JetBrainsMono-Italic[[]wght[]].ttf",
+ignore = [
+  "fonts/variable/JetBrainsMono[wght].ttf",
+  "fonts/variable/JetBrainsMono-Italic[wght].ttf",
 ]

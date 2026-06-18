@@ -30,7 +30,7 @@ license = "OFL-1.1"
 [[sources]]
 url = "https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip"
 hash = "sha256:e67a68ee3386db63f48b9054bd196ea752bc6a4ebb4df35adce6733da50c8474"
-include = [
+files = [
   "ttf/CascadiaCode.ttf",
   "ttf/CascadiaCodeItalic.ttf",
   "ttf/CascadiaCodeNF.ttf",
@@ -45,7 +45,7 @@ include = [
   "ttf/CascadiaMonoPL.ttf",
   "ttf/CascadiaMonoPLItalic.ttf",
 ]
-exclude = [
-  "otf/static/*.otf",
-  "ttf/static/*.ttf",
+ignore = [
+  { glob = "otf/static/*.otf" },
+  { glob = "ttf/static/*.ttf" },
 ]
