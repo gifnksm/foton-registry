@@ -7,24 +7,6 @@ aliases = [
   "UDEV Gothis 35NF",
   "UDEV Gothis 35NFLG",
 ]
-faces = [
-  "UDEV Gothic NF Regular",
-  "UDEV Gothic NF Bold",
-  "UDEV Gothic NF Italic",
-  "UDEV Gothic NF BoldItalic",
-  "UDEV Gothic NFLG Regular",
-  "UDEV Gothic NFLG Bold",
-  "UDEV Gothic NFLG Italic",
-  "UDEV Gothic NFLG BoldItalic",
-  "UDEV Gothic 35NF Regular",
-  "UDEV Gothic 35NF Bold",
-  "UDEV Gothic 35NF Italic",
-  "UDEV Gothic 35NF BoldItalic",
-  "UDEV Gothic 35NFLG Regular",
-  "UDEV Gothic 35NFLG Bold",
-  "UDEV Gothic 35NFLG Italic",
-  "UDEV Gothic 35NFLG BoldItalic",
-]
 repository = "https://github.com/yuru7/udev-gothic"
 license = "OFL-1.1"
 
@@ -32,20 +14,20 @@ license = "OFL-1.1"
 url = "https://github.com/yuru7/udev-gothic/releases/download/v2.1.0/UDEVGothic_NF_v2.1.0.zip"
 hash = "sha256:2d3ea89a7dfbf5ad07893fa1a39894f5860a146fd2633311176c61dcca6120e7"
 files = [
-  "UDEVGothic_NF_v2.1.0/UDEVGothicNF-Regular.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothicNF-Bold.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothicNF-Italic.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothicNF-BoldItalic.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-Regular.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-Bold.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-Italic.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-BoldItalic.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-Regular.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-Bold.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-Italic.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-BoldItalic.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-Regular.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-Bold.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-Italic.ttf",
-  "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-BoldItalic.ttf",
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothicNF-Regular.ttf", title = "UDEV Gothic NF Regular" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothicNF-Bold.ttf", title = "UDEV Gothic NF Bold" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothicNF-Italic.ttf", title = "UDEV Gothic NF Italic" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothicNF-BoldItalic.ttf", title = "UDEV Gothic NF BoldItalic" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-Regular.ttf", title = "UDEV Gothic NFLG Regular" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-Bold.ttf", title = "UDEV Gothic NFLG Bold" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-Italic.ttf", title = "UDEV Gothic NFLG Italic" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothicNFLG-BoldItalic.ttf", title = "UDEV Gothic NFLG BoldItalic" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-Regular.ttf", title = "UDEV Gothic 35NF Regular" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-Bold.ttf", title = "UDEV Gothic 35NF Bold" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-Italic.ttf", title = "UDEV Gothic 35NF Italic" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothic35NF-BoldItalic.ttf", title = "UDEV Gothic 35NF BoldItalic" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-Regular.ttf", title = "UDEV Gothic 35NFLG Regular" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-Bold.ttf", title = "UDEV Gothic 35NFLG Bold" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-Italic.ttf", title = "UDEV Gothic 35NFLG Italic" },
+  { path = "UDEVGothic_NF_v2.1.0/UDEVGothic35NFLG-BoldItalic.ttf", title = "UDEV Gothic 35NFLG BoldItalic" },
 ]

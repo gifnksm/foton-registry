@@ -7,16 +7,6 @@ aliases = [
   "Firge35",
   "Firge35 Console",
 ]
-faces = [
-  "Firge Regular",
-  "Firge Bold",
-  "Firge Console Regular",
-  "Firge Console Bold",
-  "Firge35 Regular",
-  "Firge35 Bold",
-  "Firge35 Console Regular",
-  "Firge35 Console Bold",
-]
 repository = "https://github.com/yuru7/Firge"
 license = "OFL-1.1"
 
@@ -24,12 +14,12 @@ license = "OFL-1.1"
 url = "https://github.com/yuru7/Firge/releases/download/v0.3.0/Firge_v0.3.0.zip"
 hash = "sha256:c986f621000a6598064c7e2078322ed02040af4f7804d258033df949b35b0527"
 files = [
-  "Firge_v0.3.0/Firge-Regular.ttf",
-  "Firge_v0.3.0/Firge-Bold.ttf",
-  "Firge_v0.3.0/FirgeConsole-Regular.ttf",
-  "Firge_v0.3.0/FirgeConsole-Bold.ttf",
-  "Firge_v0.3.0/Firge35-Regular.ttf",
-  "Firge_v0.3.0/Firge35-Bold.ttf",
-  "Firge_v0.3.0/Firge35Console-Regular.ttf",
-  "Firge_v0.3.0/Firge35Console-Bold.ttf",
+  { path = "Firge_v0.3.0/Firge-Regular.ttf", title = "Firge Regular" },
+  { path = "Firge_v0.3.0/Firge-Bold.ttf", title = "Firge Bold" },
+  { path = "Firge_v0.3.0/FirgeConsole-Regular.ttf", title = "Firge Console Regular" },
+  { path = "Firge_v0.3.0/FirgeConsole-Bold.ttf", title = "Firge Console Bold" },
+  { path = "Firge_v0.3.0/Firge35-Regular.ttf", title = "Firge35 Regular" },
+  { path = "Firge_v0.3.0/Firge35-Bold.ttf", title = "Firge35 Bold" },
+  { path = "Firge_v0.3.0/Firge35Console-Regular.ttf", title = "Firge35 Console Regular" },
+  { path = "Firge_v0.3.0/Firge35Console-Bold.ttf", title = "Firge35 Console Bold" },
 ]

@@ -3,14 +3,6 @@ display-name = "Fira Code"
 version = "6.2"
 description = "Monospaced font with programming ligatures"
 aliases = []
-faces = [
-  "Fira Code Light",
-  "Fira Code Regular",
-  "Fira Code Retina",
-  "Fira Code Medium",
-  "Fira Code SemiBold",
-  "Fira Code Bold",
-]
 repository = "https://github.com/tonsky/FiraCode"
 license = "OFL-1.1"
 
@@ -18,11 +10,11 @@ license = "OFL-1.1"
 url = "https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"
 hash = "sha256:0949915ba8eb24d89fd93d10a7ff623f42830d7c5ffc3ecbf960e4ecad3e3e79"
 files = [
-  "ttf/FiraCode-Light.ttf",
-  "ttf/FiraCode-Regular.ttf",
-  "ttf/FiraCode-Retina.ttf",
-  "ttf/FiraCode-Medium.ttf",
-  "ttf/FiraCode-SemiBold.ttf",
-  "ttf/FiraCode-Bold.ttf",
+  { path = "ttf/FiraCode-Light.ttf", title = "Fira Code Light" },
+  { path = "ttf/FiraCode-Regular.ttf", title = "Fira Code Regular" },
+  { path = "ttf/FiraCode-Retina.ttf", title = "Fira Code Retina" },
+  { path = "ttf/FiraCode-Medium.ttf", title = "Fira Code Medium" },
+  { path = "ttf/FiraCode-SemiBold.ttf", title = "Fira Code SemiBold" },
+  { path = "ttf/FiraCode-Bold.ttf", title = "Fira Code Bold" },
 ]
 ignore = ["variable_ttf/FiraCode-VF.ttf"]
