@@ -9,12 +9,5 @@ license = "OFL-1.1"
 [[sources]]
 url = "https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"
 hash = "sha256:0949915ba8eb24d89fd93d10a7ff623f42830d7c5ffc3ecbf960e4ecad3e3e79"
-files = [
-  { path = "ttf/FiraCode-Light.ttf", title = "Fira Code Light" },
-  { path = "ttf/FiraCode-Regular.ttf", title = "Fira Code Regular" },
-  { path = "ttf/FiraCode-Retina.ttf", title = "Fira Code Retina" },
-  { path = "ttf/FiraCode-Medium.ttf", title = "Fira Code Medium" },
-  { path = "ttf/FiraCode-SemiBold.ttf", title = "Fira Code SemiBold" },
-  { path = "ttf/FiraCode-Bold.ttf", title = "Fira Code Bold" },
-]
-ignore = ["variable_ttf/FiraCode-VF.ttf"]
+files = [{ path = "variable_ttf/FiraCode-VF.ttf", title = "Fira Code" }]
+ignore = [{ glob = "ttf/FiraCode-*.ttf" }]
