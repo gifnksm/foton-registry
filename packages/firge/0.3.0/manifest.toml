@@ -13,7 +13,10 @@ license = "OFL-1.1"
 [[sources]]
 url = "https://github.com/yuru7/Firge/releases/download/v0.3.0/Firge_v0.3.0.zip"
 hash = "sha256:c986f621000a6598064c7e2078322ed02040af4f7804d258033df949b35b0527"
-files = [
+
+[sources.contents]
+type = "archive"
+fonts = [
   { path = "Firge_v0.3.0/Firge-Regular.ttf", title = "Firge Regular" },
   { path = "Firge_v0.3.0/Firge-Bold.ttf", title = "Firge Bold" },
   { path = "Firge_v0.3.0/FirgeConsole-Regular.ttf", title = "Firge Console Regular" },

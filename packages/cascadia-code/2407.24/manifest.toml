@@ -15,7 +15,10 @@ license = "OFL-1.1"
 [[sources]]
 url = "https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip"
 hash = "sha256:e67a68ee3386db63f48b9054bd196ea752bc6a4ebb4df35adce6733da50c8474"
-files = [
+
+[sources.contents]
+type = "archive"
+fonts = [
   { path = "ttf/CascadiaCode.ttf", title = "Cascadia Code Regular" },
   { path = "ttf/CascadiaCodeItalic.ttf", title = "Cascadia Code Italic" },
   { path = "ttf/CascadiaCodeNF.ttf", title = "Cascadia Code NF Regular" },

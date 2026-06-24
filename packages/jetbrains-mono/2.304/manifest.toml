@@ -10,7 +10,10 @@ license = "OFL-1.1"
 [[sources]]
 url = "https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip"
 hash = "sha256:6f6376c6ed2960ea8a963cd7387ec9d76e3f629125bc33d1fdcd7eb7012f7bbf"
-files = [
+
+[sources.contents]
+type = "archive"
+fonts = [
   { path = "fonts/variable/JetBrainsMono[wght].ttf", title = "JetBrains Mono" },
   { path = "fonts/variable/JetBrainsMono-Italic[wght].ttf", title = "JetBrains Mono Italic" },
 ]

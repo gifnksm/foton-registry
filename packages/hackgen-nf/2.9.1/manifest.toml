@@ -12,7 +12,10 @@ license = "OFL-1.1"
 [[sources]]
 url = "https://github.com/yuru7/HackGen/releases/download/v2.9.1/HackGen_NF_v2.9.1.zip"
 hash = "sha256:1fd174866c7bcbe1cc09ebef74f9246a21664fedbb9c9ced349a328ab6357f0d"
-files = [
+
+[sources.contents]
+type = "archive"
+fonts = [
   { path = "HackGen_NF_v2.9.1/HackGenConsoleNF-Regular.ttf", title = "HackGen Console NF Regular" },
   { path = "HackGen_NF_v2.9.1/HackGenConsoleNF-Bold.ttf", title = "HackGen Console NF Bold" },
   { path = "HackGen_NF_v2.9.1/HackGen35ConsoleNF-Regular.ttf", title = "HackGen35 Console NF Regular" },
