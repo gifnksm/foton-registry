@@ -1,0 +1,15 @@
+name = "noto-emoji"
+display-name = "Noto Emoji"
+version = "2.051"
+description = "Color emoji typeface for Unicode emoji characters"
+aliases = []
+repository = "https://github.com/googlefonts/noto-emoji"
+license = "OFL-1.1"
+
+[[sources]]
+url = "https://github.com/googlefonts/noto-emoji/raw/v2.051/fonts/NotoColorEmoji.ttf"
+hash = "sha256:72a635cb3d2f3524c51620cdde406b217204e8a6a06c6a096ff8ed4b5fd6e27b"
+
+[sources.contents]
+type = "font-file"
+title = "Noto Emoji"

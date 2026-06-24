@@ -1,0 +1,16 @@
+name = "noto-sans-mono-cjk"
+display-name = "Noto Sans Mono CJK"
+version = "2.004"
+description = "Pan-CJK monospaced sans-serif typeface for Chinese, Japanese, and Korean text"
+aliases = []
+homepage = "https://fonts.google.com/noto/use"
+repository = "https://github.com/notofonts/noto-cjk"
+license = "OFL-1.1"
+
+[[sources]]
+url = "https://github.com/googlefonts/noto-cjk/raw/Sans2.004/Sans/Variable/OTC/NotoSansMonoCJK-VF.ttf.ttc"
+hash = "sha256:b861b923e105a437f30ce12573350e899ee75766c4a6e9eef6d46788fb839e76"
+
+[sources.contents]
+type = "font-file"
+title = "Noto Sans Mono CJK"

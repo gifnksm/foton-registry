@@ -1,0 +1,61 @@
+name = "noto-sans-mono"
+display-name = "Noto Sans Mono"
+version = "2.014"
+description = "Monospaced sans-serif typeface for Latin, Greek, and Cyrillic text"
+aliases = []
+homepage = "https://fonts.google.com/noto/use"
+repository = "https://github.com/notofonts/latin-greek-cyrillic"
+license = "OFL-1.1"
+
+[[sources]]
+url = "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSansMono-v2.014/NotoSansMono-v2.014.zip"
+hash = "sha256:090cf6c5e03f337a755630ca888b1fef463e64ae7b33ee134e9309c05f978732"
+
+[sources.contents]
+type = "archive"
+fonts = [
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-Black.ttf", title = "Noto Sans Mono Black" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-Bold.ttf", title = "Noto Sans Mono Bold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-Condensed.ttf", title = "Noto Sans Mono Condensed" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-CondensedBlack.ttf", title = "Noto Sans Mono Condensed Black" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-CondensedBold.ttf", title = "Noto Sans Mono Condensed Bold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-CondensedExtraBold.ttf", title = "Noto Sans Mono Condensed ExtraBold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-CondensedExtraLight.ttf", title = "Noto Sans Mono Condensed ExtraLight" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-CondensedLight.ttf", title = "Noto Sans Mono Condensed Light" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-CondensedMedium.ttf", title = "Noto Sans Mono Condensed Medium" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-CondensedSemiBold.ttf", title = "Noto Sans Mono Condensed SemiBold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-CondensedThin.ttf", title = "Noto Sans Mono Condensed Thin" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraBold.ttf", title = "Noto Sans Mono ExtraBold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraCondensed.ttf", title = "Noto Sans Mono ExtraCondensed" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraCondensedBlack.ttf", title = "Noto Sans Mono ExtraCondensed Black" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraCondensedBold.ttf", title = "Noto Sans Mono ExtraCondensed Bold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraCondensedExtraBold.ttf", title = "Noto Sans Mono ExtraCondensed ExtraBold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraCondensedExtraLight.ttf", title = "Noto Sans Mono ExtraCondensed ExtraLight" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraCondensedLight.ttf", title = "Noto Sans Mono ExtraCondensed Light" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraCondensedMedium.ttf", title = "Noto Sans Mono ExtraCondensed Medium" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraCondensedSemiBold.ttf", title = "Noto Sans Mono ExtraCondensed SemiBold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraCondensedThin.ttf", title = "Noto Sans Mono ExtraCondensed Thin" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-ExtraLight.ttf", title = "Noto Sans Mono ExtraLight" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-Light.ttf", title = "Noto Sans Mono Light" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-Medium.ttf", title = "Noto Sans Mono Medium" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-Regular.ttf", title = "Noto Sans Mono Regular" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-SemiBold.ttf", title = "Noto Sans Mono SemiBold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-SemiCondensed.ttf", title = "Noto Sans Mono SemiCondensed" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-SemiCondensedBlack.ttf", title = "Noto Sans Mono SemiCondensed Black" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-SemiCondensedBold.ttf", title = "Noto Sans Mono SemiCondensed Bold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-SemiCondensedExtraBold.ttf", title = "Noto Sans Mono SemiCondensed ExtraBold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-SemiCondensedExtraLight.ttf", title = "Noto Sans Mono SemiCondensed ExtraLight" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-SemiCondensedLight.ttf", title = "Noto Sans Mono SemiCondensed Light" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-SemiCondensedMedium.ttf", title = "Noto Sans Mono SemiCondensed Medium" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-SemiCondensedSemiBold.ttf", title = "Noto Sans Mono SemiCondensed SemiBold" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-SemiCondensedThin.ttf", title = "Noto Sans Mono SemiCondensed Thin" },
+  { path = "NotoSansMono/hinted/ttf/NotoSansMono-Thin.ttf", title = "Noto Sans Mono Thin" },
+]
+ignore = [
+  { glob = "NotoSansMono/googlefonts/ttf/*.ttf" },
+  { glob = "NotoSansMono/googlefonts/variable/*.ttf" },
+  { glob = "NotoSansMono/unhinted/otf/*.otf" },
+  { glob = "NotoSansMono/unhinted/slim-variable-ttf/*.ttf" },
+  { glob = "NotoSansMono/unhinted/ttf/*.ttf" },
+  { glob = "NotoSansMono/unhinted/variable/*.ttf" },
+]

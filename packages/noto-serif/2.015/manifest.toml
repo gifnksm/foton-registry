@@ -1,0 +1,96 @@
+name = "noto-serif"
+display-name = "Noto Serif"
+version = "2.015"
+description = "Serif typeface for Latin, Greek, and Cyrillic text"
+aliases = []
+homepage = "https://fonts.google.com/noto/use"
+repository = "https://github.com/notofonts/latin-greek-cyrillic"
+license = "OFL-1.1"
+
+[[sources]]
+url = "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.015/NotoSerif-v2.015.zip"
+hash = "sha256:0e9a43c8a4b94ac76f55069ed1d7385bbcaf6b99527a94deb5619e032b7e76c1"
+
+[sources.contents]
+type = "archive"
+fonts = [
+  { path = "NotoSerif/hinted/ttf/NotoSerif-Black.ttf", title = "Noto Serif Black" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-BlackItalic.ttf", title = "Noto Serif Black Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-Bold.ttf", title = "Noto Serif Bold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-BoldItalic.ttf", title = "Noto Serif Bold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-Condensed.ttf", title = "Noto Serif Condensed" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedBlack.ttf", title = "Noto Serif Condensed Black" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedBlackItalic.ttf", title = "Noto Serif Condensed Black Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedBold.ttf", title = "Noto Serif Condensed Bold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedBoldItalic.ttf", title = "Noto Serif Condensed Bold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedExtraBold.ttf", title = "Noto Serif Condensed ExtraBold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedExtraBoldItalic.ttf", title = "Noto Serif Condensed ExtraBold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedExtraLight.ttf", title = "Noto Serif Condensed ExtraLight" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedExtraLightItalic.ttf", title = "Noto Serif Condensed ExtraLight Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedItalic.ttf", title = "Noto Serif Condensed Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedLight.ttf", title = "Noto Serif Condensed Light" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedLightItalic.ttf", title = "Noto Serif Condensed Light Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedMedium.ttf", title = "Noto Serif Condensed Medium" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedMediumItalic.ttf", title = "Noto Serif Condensed Medium Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedSemiBold.ttf", title = "Noto Serif Condensed SemiBold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedSemiBoldItalic.ttf", title = "Noto Serif Condensed SemiBold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedThin.ttf", title = "Noto Serif Condensed Thin" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-CondensedThinItalic.ttf", title = "Noto Serif Condensed Thin Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraBold.ttf", title = "Noto Serif ExtraBold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraBoldItalic.ttf", title = "Noto Serif ExtraBold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensed.ttf", title = "Noto Serif ExtraCondensed" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedBlack.ttf", title = "Noto Serif ExtraCondensed Black" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedBlackItalic.ttf", title = "Noto Serif ExtraCondensed Black Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedBold.ttf", title = "Noto Serif ExtraCondensed Bold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedBoldItalic.ttf", title = "Noto Serif ExtraCondensed Bold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedExtraBold.ttf", title = "Noto Serif ExtraCondensed ExtraBold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedExtraBoldItalic.ttf", title = "Noto Serif ExtraCondensed ExtraBold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedExtraLight.ttf", title = "Noto Serif ExtraCondensed ExtraLight" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedExtraLightItalic.ttf", title = "Noto Serif ExtraCondensed ExtraLight Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedItalic.ttf", title = "Noto Serif ExtraCondensed Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedLight.ttf", title = "Noto Serif ExtraCondensed Light" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedLightItalic.ttf", title = "Noto Serif ExtraCondensed Light Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedMedium.ttf", title = "Noto Serif ExtraCondensed Medium" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedMediumItalic.ttf", title = "Noto Serif ExtraCondensed Medium Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedSemiBold.ttf", title = "Noto Serif ExtraCondensed SemiBold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedSemiBoldItalic.ttf", title = "Noto Serif ExtraCondensed SemiBold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedThin.ttf", title = "Noto Serif ExtraCondensed Thin" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraCondensedThinItalic.ttf", title = "Noto Serif ExtraCondensed Thin Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraLight.ttf", title = "Noto Serif ExtraLight" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ExtraLightItalic.ttf", title = "Noto Serif ExtraLight Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-Italic.ttf", title = "Noto Serif Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-Light.ttf", title = "Noto Serif Light" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-LightItalic.ttf", title = "Noto Serif Light Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-Medium.ttf", title = "Noto Serif Medium" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-MediumItalic.ttf", title = "Noto Serif Medium Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-Regular.ttf", title = "Noto Serif Regular" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiBold.ttf", title = "Noto Serif SemiBold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiBoldItalic.ttf", title = "Noto Serif SemiBold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensed.ttf", title = "Noto Serif SemiCondensed" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedBlack.ttf", title = "Noto Serif SemiCondensed Black" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedBlackItalic.ttf", title = "Noto Serif SemiCondensed Black Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedBold.ttf", title = "Noto Serif SemiCondensed Bold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedBoldItalic.ttf", title = "Noto Serif SemiCondensed Bold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedExtraBold.ttf", title = "Noto Serif SemiCondensed ExtraBold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedExtraBoldItalic.ttf", title = "Noto Serif SemiCondensed ExtraBold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedExtraLight.ttf", title = "Noto Serif SemiCondensed ExtraLight" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedExtraLightItalic.ttf", title = "Noto Serif SemiCondensed ExtraLight Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedItalic.ttf", title = "Noto Serif SemiCondensed Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedLight.ttf", title = "Noto Serif SemiCondensed Light" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedLightItalic.ttf", title = "Noto Serif SemiCondensed Light Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedMedium.ttf", title = "Noto Serif SemiCondensed Medium" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedMediumItalic.ttf", title = "Noto Serif SemiCondensed Medium Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedSemiBold.ttf", title = "Noto Serif SemiCondensed SemiBold" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedSemiBoldItalic.ttf", title = "Noto Serif SemiCondensed SemiBold Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedThin.ttf", title = "Noto Serif SemiCondensed Thin" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-SemiCondensedThinItalic.ttf", title = "Noto Serif SemiCondensed Thin Italic" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-Thin.ttf", title = "Noto Serif Thin" },
+  { path = "NotoSerif/hinted/ttf/NotoSerif-ThinItalic.ttf", title = "Noto Serif Thin Italic" },
+]
+ignore = [
+  { glob = "NotoSerif/googlefonts/variable-ttf/*.ttf" },
+  { glob = "NotoSerif/unhinted/otf/*.otf" },
+  { glob = "NotoSerif/unhinted/slim-variable-ttf/*.ttf" },
+  { glob = "NotoSerif/unhinted/ttf/*.ttf" },
+  { glob = "NotoSerif/unhinted/variable-ttf/*.ttf" },
+]
