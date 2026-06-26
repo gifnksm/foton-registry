@@ -13,12 +13,12 @@ hash = "sha256:66f2f00fb7ae00f098fb1683d0a665373f5900f9aa1447b273d70e86a868ec77"
 [sources.contents]
 type = "archive"
 fonts = [
-  { path = "HackGen_v2.9.1/HackGen-Regular.ttf", title = "HackGen Regular" },
-  { path = "HackGen_v2.9.1/HackGen-Bold.ttf", title = "HackGen Bold" },
-  { path = "HackGen_v2.9.1/HackGenConsole-Regular.ttf", title = "HackGen Console Regular" },
-  { path = "HackGen_v2.9.1/HackGenConsole-Bold.ttf", title = "HackGen Console Bold" },
-  { path = "HackGen_v2.9.1/HackGen35-Regular.ttf", title = "HackGen35 Regular" },
-  { path = "HackGen_v2.9.1/HackGen35-Bold.ttf", title = "HackGen35 Bold" },
-  { path = "HackGen_v2.9.1/HackGen35Console-Regular.ttf", title = "HackGen35 Console Regular" },
-  { path = "HackGen_v2.9.1/HackGen35Console-Bold.ttf", title = "HackGen35 Console Bold" },
+  "HackGen_v2.9.1/HackGen-Regular.ttf",
+  "HackGen_v2.9.1/HackGen-Bold.ttf",
+  "HackGen_v2.9.1/HackGenConsole-Regular.ttf",
+  "HackGen_v2.9.1/HackGenConsole-Bold.ttf",
+  "HackGen_v2.9.1/HackGen35-Regular.ttf",
+  "HackGen_v2.9.1/HackGen35-Bold.ttf",
+  "HackGen_v2.9.1/HackGen35Console-Regular.ttf",
+  "HackGen_v2.9.1/HackGen35Console-Bold.ttf",
 ]

@@ -13,4 +13,3 @@ hash = "sha256:b861b923e105a437f30ce12573350e899ee75766c4a6e9eef6d46788fb839e76"
 
 [sources.contents]
 type = "font-file"
-title = "Noto Sans Mono CJK"

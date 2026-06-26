@@ -17,8 +17,8 @@ hash = "sha256:30692df621b92df13b88f1360aed1ab6ae50de441bce751a396c6439045cd759"
 [sources.contents]
 type = "archive"
 fonts = [
-  { path = "BIZUDGothic-Regular.ttf", title = "BIZ UDゴシック" },
-  { path = "BIZUDGothic-Bold.ttf", title = "BIZ UDゴシック Bold" },
-  { path = "BIZUDPGothic-Regular.ttf", title = "BIZ UDPゴシック" },
-  { path = "BIZUDPGothic-Bold.ttf", title = "BIZ UDPゴシック Bold" },
+  "BIZUDGothic-Regular.ttf",
+  "BIZUDGothic-Bold.ttf",
+  "BIZUDPGothic-Regular.ttf",
+  "BIZUDPGothic-Bold.ttf",
 ]

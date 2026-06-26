@@ -15,8 +15,8 @@ hash = "sha256:54cd76378fbc5025f42d441d95ca6ec1d3ecc4270e6107558840fed7c04cfe4f"
 [sources.contents]
 type = "archive"
 fonts = [
-  { path = "FirgeNerd_v0.3.0/FirgeNerdConsole-Regular.ttf", title = "FirgeNerd Console Regular" },
-  { path = "FirgeNerd_v0.3.0/FirgeNerdConsole-Bold.ttf", title = "FirgeNerd Console Bold" },
-  { path = "FirgeNerd_v0.3.0/Firge35NerdConsole-Regular.ttf", title = "Firge35Nerd Console Regular" },
-  { path = "FirgeNerd_v0.3.0/Firge35NerdConsole-Bold.ttf", title = "Firge35Nerd Console Bold" },
+  "FirgeNerd_v0.3.0/FirgeNerdConsole-Regular.ttf",
+  "FirgeNerd_v0.3.0/FirgeNerdConsole-Bold.ttf",
+  "FirgeNerd_v0.3.0/Firge35NerdConsole-Regular.ttf",
+  "FirgeNerd_v0.3.0/Firge35NerdConsole-Bold.ttf",
 ]

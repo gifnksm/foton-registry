@@ -19,19 +19,19 @@ hash = "sha256:e67a68ee3386db63f48b9054bd196ea752bc6a4ebb4df35adce6733da50c8474"
 [sources.contents]
 type = "archive"
 fonts = [
-  { path = "ttf/CascadiaCode.ttf", title = "Cascadia Code Regular" },
-  { path = "ttf/CascadiaCodeItalic.ttf", title = "Cascadia Code Italic" },
-  { path = "ttf/CascadiaCodeNF.ttf", title = "Cascadia Code NF Regular" },
-  { path = "ttf/CascadiaCodeNFItalic.ttf", title = "Cascadia Code NF Italic" },
-  { path = "ttf/CascadiaCodePL.ttf", title = "Cascadia Code PL Regular" },
-  { path = "ttf/CascadiaCodePLItalic.ttf", title = "Cascadia Code PL Italic" },
+  "ttf/CascadiaCode.ttf",
+  "ttf/CascadiaCodeItalic.ttf",
+  "ttf/CascadiaCodeNF.ttf",
+  "ttf/CascadiaCodeNFItalic.ttf",
+  "ttf/CascadiaCodePL.ttf",
+  "ttf/CascadiaCodePLItalic.ttf",
 
-  { path = "ttf/CascadiaMono.ttf", title = "Cascadia Mono Regular" },
-  { path = "ttf/CascadiaMonoItalic.ttf", title = "Cascadia Mono Italic" },
-  { path = "ttf/CascadiaMonoNF.ttf", title = "Cascadia Mono NF Regular" },
-  { path = "ttf/CascadiaMonoNFItalic.ttf", title = "Cascadia Mono NF Italic" },
-  { path = "ttf/CascadiaMonoPL.ttf", title = "Cascadia Mono PL Regular" },
-  { path = "ttf/CascadiaMonoPLItalic.ttf", title = "Cascadia Mono PL Italic" },
+  "ttf/CascadiaMono.ttf",
+  "ttf/CascadiaMonoItalic.ttf",
+  "ttf/CascadiaMonoNF.ttf",
+  "ttf/CascadiaMonoNFItalic.ttf",
+  "ttf/CascadiaMonoPL.ttf",
+  "ttf/CascadiaMonoPLItalic.ttf",
 ]
 ignore = [
   { glob = "otf/static/*.otf" },

@@ -16,8 +16,8 @@ hash = "sha256:f8abd483d5edfad88a78ed511978f43c83b43c48e364aa29ebe4a68217474428"
 [sources.contents]
 type = "archive"
 fonts = [
-  { path = "HackGen_NF_v2.10.0/HackGenConsoleNF-Regular.ttf", title = "HackGen Console NF Regular" },
-  { path = "HackGen_NF_v2.10.0/HackGenConsoleNF-Bold.ttf", title = "HackGen Console NF Bold" },
-  { path = "HackGen_NF_v2.10.0/HackGen35ConsoleNF-Regular.ttf", title = "HackGen35 Console NF Regular" },
-  { path = "HackGen_NF_v2.10.0/HackGen35ConsoleNF-Bold.ttf", title = "HackGen35 Console NF Bold" },
+  "HackGen_NF_v2.10.0/HackGenConsoleNF-Regular.ttf",
+  "HackGen_NF_v2.10.0/HackGenConsoleNF-Bold.ttf",
+  "HackGen_NF_v2.10.0/HackGen35ConsoleNF-Regular.ttf",
+  "HackGen_NF_v2.10.0/HackGen35ConsoleNF-Bold.ttf",
 ]

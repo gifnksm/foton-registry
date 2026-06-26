@@ -12,5 +12,5 @@ hash = "sha256:0949915ba8eb24d89fd93d10a7ff623f42830d7c5ffc3ecbf960e4ecad3e3e79"
 
 [sources.contents]
 type = "archive"
-fonts = [{ path = "variable_ttf/FiraCode-VF.ttf", title = "Fira Code" }]
+fonts = ["variable_ttf/FiraCode-VF.ttf"]
 ignore = [{ glob = "ttf/FiraCode-*.ttf" }]
