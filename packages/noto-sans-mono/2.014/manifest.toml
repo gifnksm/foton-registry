@@ -1,8 +1,6 @@
 name = "noto-sans-mono"
-display-name = "Noto Sans Mono"
 version = "2.014"
 description = "Monospaced sans-serif typeface for Latin, Greek, and Cyrillic text"
-aliases = []
 homepage = "https://fonts.google.com/noto/use"
 repository = "https://github.com/notofonts/latin-greek-cyrillic"
 license = "OFL-1.1"

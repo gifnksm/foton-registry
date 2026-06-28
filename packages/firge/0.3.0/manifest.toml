@@ -1,12 +1,6 @@
 name = "firge"
-display-name = "Firge"
 version = "0.3.0"
 description = "Japanese programming font combining Fira Mono and Genshin Gothic"
-aliases = [
-  "Firge Console",
-  "Firge35",
-  "Firge35 Console",
-]
 repository = "https://github.com/yuru7/Firge"
 license = "OFL-1.1"
 

@@ -1,12 +1,6 @@
 name = "biz-ud-gothic"
-display-name = "BIZ UDGothic"
 version = "1.051"
 description = "Japanese universal design typeface designed to be easy to read and ideal for education and business documentation"
-aliases = [
-  "BIZ UDPGothic",
-  "BIZ UDゴシック",
-  "BIZ UDPゴシック",
-]
 repository = "https://github.com/googlefonts/morisawa-biz-ud-gothic"
 license = "OFL-1.1"
 

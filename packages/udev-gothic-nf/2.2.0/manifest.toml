@@ -1,12 +1,6 @@
 name = "udev-gothic-nf"
-display-name = "UDEV Gothic NF"
 version = "2.2.0"
 description = "Japanese programming font combining BIZ UD Gothic and JetBrains Mono with Nerd Fonts"
-aliases = [
-  "UDEV Gothic NFLG",
-  "UDEV Gothis 35NF",
-  "UDEV Gothis 35NFLG",
-]
 repository = "https://github.com/yuru7/udev-gothic"
 license = "OFL-1.1"
 

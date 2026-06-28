@@ -1,8 +1,6 @@
 name = "noto-emoji"
-display-name = "Noto Emoji"
 version = "2.051"
 description = "Color emoji typeface for Unicode emoji characters"
-aliases = []
 repository = "https://github.com/googlefonts/noto-emoji"
 license = "OFL-1.1"
 

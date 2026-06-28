@@ -1,8 +1,6 @@
 name = "noto-serif"
-display-name = "Noto Serif"
 version = "2.015"
 description = "Serif typeface for Latin, Greek, and Cyrillic text"
-aliases = []
 homepage = "https://fonts.google.com/noto/use"
 repository = "https://github.com/notofonts/latin-greek-cyrillic"
 license = "OFL-1.1"

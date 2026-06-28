@@ -1,11 +1,6 @@
 name = "hackgen-nf"
-display-name = "HackGen NF"
 version = "2.9.1"
 description = "Japanese programming font combining Hack and GenJyuu Gothic with Nerd Fonts"
-aliases = [
-  "HackGen Console NF",
-  "HackGen35 Console NF",
-]
 repository = "https://github.com/yuru7/HackGen"
 license = "OFL-1.1"
 

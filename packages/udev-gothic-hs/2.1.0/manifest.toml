@@ -1,14 +1,6 @@
 name = "udev-gothic-hs"
-display-name = "UDEV Gothic HS"
 version = "2.1.0"
 description = "Japanese programming font combining BIZ UD Gothic and JetBrains Mono with hidden full-width spaces"
-aliases = [
-  "UDEV Gothic HSJPDOC",
-  "UDEV Gothic HSLG",
-  "UDEV Gothis 35HS",
-  "UDEV Gothis 35HSJPDOC",
-  "UDEV Gothis 35HSLG",
-]
 repository = "https://github.com/yuru7/udev-gothic"
 license = "OFL-1.1"
 

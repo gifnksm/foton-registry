@@ -1,10 +1,6 @@
 name = "firge-nerd"
-display-name = "FirgeNerd Console"
 version = "0.3.0"
 description = "Japanese programming font combining Fira Mono and Genshin Gothic with Nerd Fonts"
-aliases = [
-  "Firge35Nerd Console",
-]
 repository = "https://github.com/yuru7/Firge"
 license = "OFL-1.1"
 

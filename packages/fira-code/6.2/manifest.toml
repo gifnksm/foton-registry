@@ -1,8 +1,6 @@
 name = "fira-code"
-display-name = "Fira Code"
 version = "6.2"
 description = "Monospaced font with programming ligatures"
-aliases = []
 repository = "https://github.com/tonsky/FiraCode"
 license = "OFL-1.1"
 

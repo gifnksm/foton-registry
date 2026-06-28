@@ -1,8 +1,6 @@
 name = "noto-sans-cjk"
-display-name = "Noto Sans CJK"
 version = "2.004"
 description = "Pan-CJK sans-serif typeface for Chinese, Japanese, and Korean text"
-aliases = []
 homepage = "https://fonts.google.com/noto/use"
 repository = "https://github.com/notofonts/noto-cjk"
 license = "OFL-1.1"

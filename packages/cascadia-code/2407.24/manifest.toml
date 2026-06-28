@@ -1,14 +1,6 @@
 name = "cascadia-code"
-display-name = "Cascadia Code"
 version = "2407.24"
 description = "A monospaced font by Microsoft that includes programming ligatures"
-aliases = [
-  "Cascadia Code NF",
-  "Cascadia Code PL",
-  "Cascadia Mono",
-  "Cascadia Mono NF",
-  "Cascadia Mono PL",
-]
 repository = "https://github.com/microsoft/cascadia-code"
 license = "OFL-1.1"
 
