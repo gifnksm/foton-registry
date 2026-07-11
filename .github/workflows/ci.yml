@@ -1,0 +1,176 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  schedule:
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.ref_name != github.event.repository.default_branch }}
+
+env:
+  CARGO_TERM_COLOR: always
+  FOTON_GIT_URL: https://github.com/gifnksm/foton
+  FOTON_REF: main
+
+permissions: {}
+
+jobs:
+  manifest-check:
+    name: Manifest checks
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - uses: dtolnay/rust-toolchain@v1
+        with:
+          toolchain: stable
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Install foton
+        run: cargo install --locked --git "$FOTON_GIT_URL" --branch "$FOTON_REF" foton
+        shell: bash
+
+      - name: List manifest files
+        run: |
+          find packages -type f -name manifest.toml -print | sort > manifest-list.txt
+
+          if [[ ! -s manifest-list.txt ]]; then
+            echo "No manifest files found under packages/" >&2
+            exit 1
+          fi
+
+          cat manifest-list.txt
+        shell: bash
+
+      - name: Validate all manifests without source checks
+        run: |
+          mapfile -t manifests < manifest-list.txt
+          foton --warnings-as-errors manifest check \
+            --no-source-checks \
+            --registry-root "$GITHUB_WORKSPACE" \
+            "${manifests[@]}"
+        shell: bash
+
+      - name: List changed manifest files
+        id: changed-manifests
+        if: github.event_name == 'pull_request' || github.event_name == 'push'
+        run: |
+          if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
+            base_sha='${{ github.event.pull_request.base.sha }}'
+            head_sha='${{ github.event.pull_request.head.sha }}'
+          else
+            base_sha='${{ github.event.before }}'
+            head_sha='${{ github.sha }}'
+          fi
+
+          if [[ "$base_sha" == "0000000000000000000000000000000000000000" ]]; then
+            cp manifest-list.txt changed-manifest-list.txt
+          elif [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
+            git diff --name-only --diff-filter=ACMR "${base_sha}...${head_sha}" -- ':(glob)packages/**/manifest.toml' > changed-manifest-list.txt
+          else
+            git diff --name-only --diff-filter=ACMR "$base_sha" "$head_sha" -- ':(glob)packages/**/manifest.toml' > changed-manifest-list.txt
+          fi
+
+          if [[ -s changed-manifest-list.txt ]]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            cat changed-manifest-list.txt
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No manifest changes detected."
+          fi
+        shell: bash
+
+      - name: Validate changed manifests with source checks
+        if: (github.event_name == 'pull_request' || github.event_name == 'push') && steps.changed-manifests.outputs.has_changes == 'true'
+        run: |
+          mapfile -t manifests < changed-manifest-list.txt
+          foton --warnings-as-errors manifest check \
+            --registry-root "$GITHUB_WORKSPACE" \
+            "${manifests[@]}"
+        shell: bash
+
+      - name: Validate all manifests with source checks
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          mapfile -t manifests < manifest-list.txt
+          foton --warnings-as-errors manifest check \
+            --registry-root "$GITHUB_WORKSPACE" \
+            "${manifests[@]}"
+        shell: bash
+
+  actionlint:
+    name: Actionlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install actionlint
+        run: |
+          bash <(curl -sSfL https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+          sudo mv actionlint /usr/local/bin/
+        shell: bash
+      - run: actionlint
+        shell: bash
+
+  markdownlint:
+    name: Markdownlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+      - run: npx markdownlint-cli .
+        shell: bash
+
+  tombi:
+    name: Tombi
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v8.3.0
+      - run: uvx tombi format --check
+        shell: bash
+      - run: uvx tombi lint --error-on-warnings
+        shell: bash
+
+  typos:
+    name: Typos
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: typos
+      - run: typos
+        shell: bash
+
+  ci-complete:
+    name: CI complete
+    if: always()
+    needs:
+      - manifest-check
+      - actionlint
+      - markdownlint
+      - tombi
+      - typos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail if any required job did not succeed
+        if: contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') || contains(needs.*.result, 'skipped')
+        run: |
+          echo '${{ toJSON(needs) }}'
+          exit 1
+        shell: bash
+
+      - name: Mark CI complete
+        run: echo "All required CI jobs succeeded."
+        shell: bash
