@@ -1,0 +1,20 @@
+name = "line-seed-jp"
+version = "20251119"
+description = "Japanese typeface from LINE with a geometry-based design"
+homepage = "https://seed.line.me/"
+repository = "https://github.com/line/seed"
+license = "OFL-1.1"
+
+[[sources]]
+url = "https://github.com/line/seed/releases/download/v20251119/seed-v20251119.zip"
+hash = "sha256:97019208d3b6886d5fc584bf5285e09332271247786dd9f9b8d96964812a6290"
+
+[sources.contents]
+type = "archive"
+fonts = [
+  "seed-v20251119/LINESeedJP/fonts/ttf/LINESeedJP-Bold.ttf",
+  "seed-v20251119/LINESeedJP/fonts/ttf/LINESeedJP-ExtraBold.ttf",
+  "seed-v20251119/LINESeedJP/fonts/ttf/LINESeedJP-Regular.ttf",
+  "seed-v20251119/LINESeedJP/fonts/ttf/LINESeedJP-Thin.ttf",
+]
+ignore = [{ glob = "seed-v*/LINESeedJP/fonts/otf/*.otf" }]
