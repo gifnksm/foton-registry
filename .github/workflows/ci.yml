@@ -13,11 +13,6 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: ${{ github.ref_name != github.event.repository.default_branch }}
 
-env:
-  CARGO_TERM_COLOR: always
-  FOTON_GIT_URL: https://github.com/gifnksm/foton
-  FOTON_REF: main
-
 permissions: {}
 
 jobs:
@@ -29,15 +24,9 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: dtolnay/rust-toolchain@v1
+      - uses: taiki-e/install-action@v2
         with:
-          toolchain: stable
-
-      - uses: Swatinem/rust-cache@v2
-
-      - name: Install foton
-        run: cargo install --locked --git "$FOTON_GIT_URL" --branch "$FOTON_REF" foton
-        shell: bash
+          tool: foton
 
       - name: List manifest files
         run: |
