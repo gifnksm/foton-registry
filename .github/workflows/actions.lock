@@ -6,7 +6,7 @@ workflows:
     '.github/workflows/ci.yml':
         - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.1.0'
-        - 'astral-sh/setup-uv@v10.3.1'
+        - 'astral-sh/setup-uv@v10.3.3'
         - 'taiki-e/install-action@v2.88.1'
 dependencies:
     'actions/checkout@v7.0.1':
@@ -19,9 +19,9 @@ dependencies:
         commit: 'sha1-949feb2413d6458794dcd2491c4babbbce0c15c1'
         owner_id: 44036562
         repo_id: 189476904
-    'astral-sh/setup-uv@v10.3.1':
-        ref: 'v10.3.1'
-        commit: 'sha1-18d369b23da25a81e9458561248e1aafff6a70fa'
+    'astral-sh/setup-uv@v10.3.3':
+        ref: 'v10.3.3'
+        commit: 'sha1-68559e99cc807c1eb7e9238fd43a15bba460eec2'
         owner_id: 115962839
         repo_id: 846733598
     'taiki-e/install-action@v2.88.1':
